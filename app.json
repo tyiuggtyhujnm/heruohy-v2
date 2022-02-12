@@ -1,0 +1,30 @@
+﻿{
+  "name": "v2",
+  "description": "v2",
+  "keywords": [
+    "v2"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "6203a79a-fb21-4852-ba7e-e7ad6e2a9680",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/tyiuggtyhujnm/heruohy-v2",
+  "repository": "https://github.com/tyiuggtyhujnm/heruohy-v2",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
